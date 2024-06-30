@@ -4,8 +4,13 @@
 
 This project gives us the ability to write JavaScript within VSCode and automatically run the channel after the file has been saved. It will then take the logs printed out and display them in the Run On Save Output.
 
-How to get started:
+## Requirements
+- Python (3.10 >)
+- Local Mirth Instance
+
+## Instructions
 1. Download this repository
+2. Run `pip install -r requirements.txt` in console
 2. Create your test js file within the repository folder.
 3. Create channel within Mirth and edit the transformer to be an external script.
 4. Add the location of the test js file to the external script transformer.

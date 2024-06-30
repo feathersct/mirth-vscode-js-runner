@@ -11,14 +11,14 @@ This project gives us the ability to write JavaScript within VSCode and automati
 ## Instructions
 1. Download this repository
 2. Run `pip install -r requirements.txt` in console
-2. Create your test js file within the repository folder.
-3. Create channel within Mirth and edit the transformer to be an external script.
-4. Add the location of the test js file to the external script transformer.
-5. Create your test message on your local machine.
-6. Within VS Code, download the Run On Save extension by emeraldwalk
-7. Open Command Palette (Ctrl + Shift + P)
-8. Search for "Preferences: Open Workspace Settings (JSON)"
-9. Add the following json
+3. Create your test js file within the repository folder.
+4. Create channel within Mirth and edit the transformer to be an external script.
+5. Add the location of the test js file to the external script transformer.
+6. Create your test message on your local machine.
+7. Within VS Code, download the Run On Save extension by emeraldwalk
+8. Open Command Palette (Ctrl + Shift + P)
+9. Search for "Preferences: Open Workspace Settings (JSON)"
+10. Add the following json
 ```
 {
     "emeraldwalk.runonsave": {
@@ -34,7 +34,7 @@ This project gives us the ability to write JavaScript within VSCode and automati
 ```
 - replace {channel_id} with the channel id you intead to deploy and send a message to
 - replace {message_file_location} with the file location with the message you want to send
-10. Write your script within the test js file and save and watch it log out the logs for your channel within the Run On Save Output view.
+11. Write your script within the test js file and save and watch it log out the logs for your channel within the Run On Save Output view.
 
 ## In Action
 ![](media/inaction.gif)

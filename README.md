@@ -4,6 +4,9 @@
 
 This project gives us the ability to write JavaScript within VSCode and automatically run the channel after the file has been saved. It will then take the logs printed out and display them in the Run On Save Output.
 
+## In Action
+![](media/inaction.gif)
+
 ## Requirements
 - Python (3.10 >)
 - Local Mirth Instance
@@ -36,5 +39,8 @@ This project gives us the ability to write JavaScript within VSCode and automati
 - replace {message_file_location} with the file location with the message you want to send
 11. Write your script within the test js file and save and watch it log out the logs for your channel within the Run On Save Output view.
 
-## In Action
-![](media/inaction.gif)
+## Youtube for Follow Along
+https://youtu.be/18ZWkR-mvv8?si=DeDtF82b4TozbftV
+
+
+

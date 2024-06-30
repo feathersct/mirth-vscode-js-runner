@@ -24,7 +24,7 @@ This project gives us the ability to write JavaScript within VSCode and automati
     "emeraldwalk.runonsave": {
         "commands": [
             {
-                "match": "*.js",
+                "match": ".*.js",
                 "isAsync": true,
                 "cmd": "py run_javascript.py -cid {channel_id} -msg {message_file_location}"
             }
